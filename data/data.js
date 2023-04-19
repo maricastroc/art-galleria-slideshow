@@ -195,7 +195,7 @@ export const data = [
       thumbnail: './assets/the-night-cafe/thumbnail.jpg',
       hero: {
         small: './assets/the-night-cafe/hero-small.jpg',
-        large: './assets/the-night-cafe/hero-large.jpg',
+        large: './assets/the-night-cafe/herolarge.jpg',
       },
       gallery: './assets/the-night-cafe/gallery.jpg',
     },
