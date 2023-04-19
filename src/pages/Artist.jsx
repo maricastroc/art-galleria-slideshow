@@ -32,7 +32,7 @@ export function Artist() {
                   className={styles.view_image}
                   onClick={() => setViewImage(true)}
                 >
-                  <img src="/public/assets/shared/icon-view-image.svg" alt="" />
+                  <img src="./assets/shared/icon-view-image.svg" alt="" />
                   <p>view image</p>
                 </div>
               </div>
@@ -80,7 +80,7 @@ export function Artist() {
                 }
               >
                 <img
-                  src="/public/assets/shared/icon-back-button.svg"
+                  src="./assets/shared/icon-back-button.svg"
                   alt="Go_Back"
                   className={
                     thisData.id === 0
@@ -99,7 +99,7 @@ export function Artist() {
                 }
               >
                 <img
-                  src="/public/assets/shared/icon-next-button.svg"
+                  src="./assets/shared/icon-next-button.svg"
                   alt="Go_Forward"
                   className={
                     thisData.id === 14
