@@ -1,0 +1,398 @@
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.overlay::after {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  min-height: 200vh;
+  content: '';
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 8;
+}
+
+.overlay_hidden::after {
+  display: block;
+}
+
+main {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.artist_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.slide_images {
+  margin: 0 1.5rem;
+  overflow: hidden;
+}
+
+.painting_image img {
+  position: relative;
+  width: 100%;
+}
+
+.full_image {
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+  top: 70%;
+  left: 50%;
+  position: absolute;
+  transition: ease-in-out 300ms;
+  animation: fadeIn 500ms;
+}
+
+.full_image button {
+  cursor: pointer;
+  margin-bottom: 2.5rem;
+  align-self: flex-end;
+  letter-spacing: 1.5px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+
+}
+
+.full_image img {
+  width: 100%;
+  height: auto;
+}
+
+.full_image_hidden {
+  display: none;
+  animation: fadeIn 500ms;
+}
+
+.painting_image {
+  position: relative;
+}
+
+.view_image {
+  cursor: pointer;
+  left: 1.2rem;
+  top: 1.2rem;
+  display: flex;
+  padding: 0.875rem;
+  gap: 0.875rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #FFFFFF;
+  position: absolute;
+  align-items: center;
+  z-index: 3;
+  transition: 300ms;
+}
+
+.view_image:hover {
+  background-color: rgba(123, 123, 123, 0.5);
+}
+
+.view_image p {
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+}
+
+.view_image img {
+  width: 0.75rem;
+}
+
+.title {
+  position: relative;
+  padding: 1.5rem 0 1.5rem 1.5rem;
+  margin: -5rem 0 0 1.5rem;
+  width:70%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  z-index: 7;
+}
+
+.title h1 {
+  width: 95%;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.title p {
+  font-size: 0.875rem;
+  color: #7D7D7D;
+}
+
+.artist_image {
+  margin-left: 2.5rem;
+  z-index: 4;
+}
+
+.artist_image img {
+  width: 4rem;
+  height: auto;
+}
+
+.slide_text_container {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 1.5rem 0;
+}
+
+.slide_text_container h1 {
+  align-self: flex-end;
+  font-size: clamp(5rem, 24.5vw, 6.5rem);
+  color: #F3F3F3;
+  margin-top: -5rem;
+  z-index: 1;
+}
+
+.slide_text_container p {
+  margin-top: -2rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  font-size: 0.875rem;
+  color: #7D7D7D;
+  z-index: 3;
+}
+
+.slide_text_container a {
+  margin: 2.5rem 0 4.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 0.6rem;
+  letter-spacing: 1px;
+  color: #7D7D7D;
+  transition: 300ms;
+}
+
+.slide_text_container a:hover {
+  color: #000000;
+}
+
+.progress_bar {
+  width: 100%;
+  background-color: #E5E5E5;
+  height: 2px;
+}
+
+.progress_value {
+  width: 20%;
+  background-color: #000000;
+  height: 2px;
+}
+
+.footer {
+  margin-top: 4.7rem;
+}
+
+.footer_content {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_text h1 {
+  font-weight: 700;
+  color: #000000;
+  font-size: 0.875rem;
+}
+
+.footer_text p {
+  color: #000000;
+  font-size: 0.625rem;
+  margin-top: 0.5rem;
+}
+
+.footer_controls {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer_controls img {
+  width: 1rem;
+}
+
+.footer_controls img:hover {
+  opacity: 0.4;
+}
+
+.blocked_button {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+@media(min-width: 670px) {
+  main {
+    margin-top: 2.5rem;
+  }
+
+  .slide_images_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2.5rem;
+  }
+
+  .slide_images {
+    margin-left: 0;
+    overflow: hidden;
+  }
+
+  .painting_image {
+    position: relative;
+  }
+
+  .painting_image > img {
+    width: 60vw;
+    height: auto;
+  }
+
+  .view_image {
+    top: auto;
+    bottom: 1.3rem;
+    position: absolute;
+    left: 1.3rem;
+  }
+
+
+  .title {
+    padding: 0 0 4rem 4rem;
+    position: absolute;
+    top: 13.5rem;
+    left: 33vw;
+    gap: 1.5rem;
+    width: 24rem;
+  }
+
+  .title h1 {
+    font-size: 3.5rem;
+  }
+
+  .title p {
+    font-size: 0.95rem;
+  }
+
+  .artist_image {
+    margin-top: 19.7rem;
+    z-index: 4;
+  }
+
+  .artist_image img {
+    width: 8rem;
+    height: auto;
+  }
+
+  .slide_text_container {
+    display: flex;
+    flex-direction: column;
+    margin: 7rem 2.5rem 0;
+  }
+
+  .slide_text_container p {
+    margin: -7.5rem 0 0 7rem;
+    width: clamp(28.5rem, 67vw, 32rem);
+  }
+
+  .slide_text_container h1 {
+    align-self: flex-start;
+    font-size: 12.5rem;
+  }
+
+  .slide_text_container a {
+    margin: 4.25rem 0 4.2rem 7rem;
+  }
+
+  .footer_content {
+    padding: 2.5rem;
+  }
+  
+  .footer_text h1 {
+    font-size: 1.125rem;
+  }
+
+  .footer_text p {
+    font-size: 0.815rem;
+  }
+
+  .footer_controls {
+    gap: 2.5rem;
+  }
+  
+  .footer_controls img {
+    width: 1.56rem;
+  }
+
+  .blocked_button svg {
+    cursor: default;
+    pointer-events: none;
+    opacity: 0.3;
+  }
+}
+
+@media(min-width: 1100px) {
+  main {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .slide_images_container {
+    padding: 0 4rem;
+  }
+
+  .painting_image > img {
+    width: 35vw;
+    height: auto;
+  }
+
+  .title {
+    top: 15.5rem;
+    left: 33vw;
+    width: clamp(18rem, 30vw, 24rem);
+  }
+
+  .title h1 {
+    font-size: clamp(2.5rem, 4.5vw ,3.5rem);
+  }
+
+  .artist_image {
+    margin: 36.8vw 0 4.7rem;
+    z-index: 4;
+  }
+
+  .slide_text_container {
+    width: 100%;
+    margin: 3.5rem 0 0 4vw;
+  }
+
+  .slide_text_container p {
+    margin-top: -5rem;
+    width: clamp(15rem, 23vw, 22rem);
+    z-index: 8;
+  }
+
+  .slide_text_container a {
+    padding: 0;
+  }
+
+  .slide_text_container h1 {
+    margin-right: 3rem;
+    font-size: clamp(5rem, 13vw, 12.5rem);
+    align-self: flex-end;
+    z-index: 7;
+  }
+
+  .footer_content {
+    padding: 1.5rem 5rem;
+  }
+}

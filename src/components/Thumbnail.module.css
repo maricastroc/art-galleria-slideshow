@@ -1,0 +1,44 @@
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.thumbnail_container {
+  margin: 1.5rem 1.5rem 3rem;
+  animation: fadeIn 3s;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-end;
+  opacity: 1;
+  transition: opacity 2s linear;
+}
+
+.group_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+@media(min-width: 670px) {
+  .thumbnail_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2.5rem 2.5rem 3rem;
+    gap: 2.5rem;
+  }
+
+  .group_wrap {
+    gap: 2.5rem;
+  }
+}
+
+@media(min-width: 1100px) {
+  .thumbnail_container {
+    margin: 2.5rem 4rem 4rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: start;
+  }
+}
+
