@@ -1,0 +1,30 @@
+.footer {
+  line-height: 1.2rem;
+  text-align: center;
+  margin: 1.5rem auto 1rem;
+  font-size: 0.75rem;
+  width: 13rem;
+}
+
+a {
+  color: #000000;
+  text-decoration: underline;
+  transition: 200ms;
+}
+
+a:hover {
+  color: #7D7D7D;
+}
+
+@media(min-width: 670px) {
+  .footer {
+    font-size: 0.80rem;
+    width: 100%;
+  }
+}
+
+@media(min-width: 1100px) {
+  .footer {
+    font-size: 0.85rem;
+  }
+}
