@@ -1,9 +1,8 @@
 # Art-Galleria-Slideshow
-
-<img src='./public/galleria-screenshot.jpg'>
-<img src='./public/galleria-screenshot-2.jpg'>
-
 <p>Art gallery slideshow project build with ReactJS, with masonry layout, slideshow presentation, and lightbox view.</p>
+<br/>
+<img src='https://user-images.githubusercontent.com/121824373/233830056-75c4bcd2-e361-4d04-ab84-af876af843dd.jpg'>
+
 <br/>
 <h2>:books: Project Description</h2>
 <p>This is a solution to the challenge <a href="https://www.frontendmentor.io/challenges/galleria-slideshow-site-tEA4pwsa6" target="_blank">Galleria Slideshow Site</a>.
