@@ -13,7 +13,7 @@ export function Header() {
       <nav>
         <NavLink to="/" title="Home">
           <img
-            src="./assets/galleria..svg"
+            src="/assets/galleria..svg"
             alt="Logo"
             onClick={() => setOpen(false)}
           />
