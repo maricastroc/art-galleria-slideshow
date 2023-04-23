@@ -1,5 +1,8 @@
 # Art-Galleria-Slideshow
 
+<img src='./public/galleria-screenshot.jpg'>
+<img src='./public/galleria-screenshot-2.jpg'>
+
 <p>Art gallery slideshow project build with ReactJS, with masonry layout, slideshow presentation, and lightbox view.</p>
 <br/>
 <h2>:books: Project Description</h2>
