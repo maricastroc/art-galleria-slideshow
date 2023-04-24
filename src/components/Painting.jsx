@@ -10,14 +10,14 @@ export function Painting(props) {
 
   return (
     <NavLink to={`/artist/${props.id}`} title="Artist">
-      <div className={styles.painting} onClick={() => setOpen(true)}>
+      <section className={styles.painting} onClick={() => setOpen(true)}>
         <div className={styles.gradient_wrapper}></div>
         <img src={props.thumbnail} alt="" />
         <div className={styles.painting_info}>
           <h1>{props.name}</h1>
           <p>{props.artist}</p>
         </div>
-      </div>
+      </section>
     </NavLink>
   )
 }

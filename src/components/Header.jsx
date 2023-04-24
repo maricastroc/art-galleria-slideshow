@@ -9,7 +9,7 @@ export function Header() {
   const { open, setOpen } = useContext(SlideShowContext)
 
   return (
-    <div className={styles.header}>
+    <header className={styles.header}>
       <nav>
         <NavLink to="/" title="Home">
           <img
@@ -27,6 +27,6 @@ export function Header() {
       <div className={styles.separator}>
         <hr />
       </div>
-    </div>
+    </header>
   )
 }

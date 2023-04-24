@@ -4,7 +4,7 @@ import styles from './Thumbnail.module.css'
 
 export function Thumbnail() {
   return (
-    <div className={styles.thumbnail_container}>
+    <main className={styles.thumbnail_container}>
       <div className={styles.group_wrap}>
         <Painting
           thumbnail="./assets/starry-night/thumbnail.jpg"
@@ -104,6 +104,6 @@ export function Thumbnail() {
           id={14}
         />
       </div>
-    </div>
+    </main>
   )
 }
