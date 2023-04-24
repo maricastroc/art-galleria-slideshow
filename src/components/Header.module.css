@@ -15,7 +15,7 @@
   align-items: center;
 }
 
-.header button {
+.header p {
   font-size: 0.56rem;
   cursor: pointer;
   border: none;
@@ -27,7 +27,7 @@
   transition: color 200ms;
 }
 
-.header button:hover {
+.header p:hover {
   color: #000000;
 }
 
@@ -60,7 +60,7 @@ hr {
     width: 10.6rem;
   }
 
-  .header button {
+  .header p {
     font-size: 0.75rem;
   }
 

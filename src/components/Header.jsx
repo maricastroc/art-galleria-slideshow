@@ -19,9 +19,9 @@ export function Header() {
           />
         </NavLink>
         <NavLink to={open ? '/' : `/artist/0`} title={open ? 'Home' : 'Artist'}>
-          <button onClick={() => setOpen(!open)}>
+          <p onClick={() => setOpen(!open)}>
             {open ? 'stop' : 'start'} slideshow
-          </button>
+          </p>
         </NavLink>
       </nav>
       <div className={styles.separator}>
