@@ -19,7 +19,7 @@ export function Artist() {
         <CloseImage src={thisData.images.gallery} />
       </div>
       <div className={styles.artist_container}>
-        <main>
+        <div className={styles.artist_container_main}>
           <div className={styles.slide_images_container}>
             <div className={styles.slide_images}>
               <div className={styles.painting_image}>
@@ -56,7 +56,7 @@ export function Artist() {
               Go to source
             </a>
           </div>
-        </main>
+        </div>
         <footer>
           <div className={styles.progress_bar}>
             <div

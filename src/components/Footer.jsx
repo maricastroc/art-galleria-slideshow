@@ -3,7 +3,7 @@ import styles from './Footer.module.css'
 export function Footer() {
   return (
     <footer className={styles.footer}>
-      <section>
+      <div>
         <p>
           Challenge by{' '}
           <a
@@ -22,7 +22,7 @@ export function Footer() {
             Mariana Castro.
           </a>
         </p>
-      </section>
+      </div>
     </footer>
   )
 }
