@@ -14,7 +14,7 @@ In this project, I had the opportunity to practice working with ReactJS, using c
 
 Additionally, I had the opportunity to work with React Router DOM, gaining experience in passing parameters between routes. This allowed me to create a gallery on the Home page where each painting could navigate to a separate route displaying its specific details
 
-[challenge-difficulty-intermediate](https://img.shields.io/badge/Difficulty-INTERMEDIATE-f1b604?style=for-the-badge&amp;logo=frontendmentor)
+![challenge-difficulty-intermediate](https://img.shields.io/badge/Difficulty-INTERMEDIATE-f1b604?style=for-the-badge&amp;logo=frontendmentor)
 
 ## 🔍 Links
 [Preview Site]([https://maricastroc-github-blog.netlify.app/](https://maricastroc-galleria-slideshow.netlify.app/))
