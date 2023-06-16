@@ -3,20 +3,51 @@
 <br/>
 <img src='https://user-images.githubusercontent.com/121824373/233830056-75c4bcd2-e361-4d04-ab84-af876af843dd.jpg'>
 
-<br/>
-<h2>:books: Project Description</h2>
-<p>This is a solution to the challenge <a href="https://www.frontendmentor.io/challenges/galleria-slideshow-site-tEA4pwsa6" target="_blank">Galleria Slideshow Site</a>.
+## 📚 Project Description
+Welcome to the Art gallery slideshow project build with ReactJS, with masonry layout, slideshow presentation, and lightbox view! This is a solution to the challenge [Galleria Slideshow Site](https://www.frontendmentor.io/challenges/galleria-slideshow-site-tEA4pwsa6)
 
-<p>In this project, I had the opportunity to practice working with ReactJS, using concepts like states, immutability, properties, components, context and keys. I was also able to practice many design features (masonry layout, slideshow presentation, lightbox view) and to use a Mobile First approach in order to favor responsive design.</p>
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Navigate the slideshow and view each painting in a lightbox
 
-<p dir="auto"><a href="https://www.frontendmentor.io/challenges?difficulties=4" rel="nofollow"><img src="https://camo.githubusercontent.com/2f6759402e9f7625555fa5f32350ff20062bf34c3a829d2398075c44fe98be85/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446966666963756c74792d494e5445524d4544494154452d6631623630343f7374796c653d666f722d7468652d6261646765266c6f676f3d66726f6e74656e646d656e746f72" alt="Challenge Difficulty - INTERMEDIATE" data-canonical-src="https://img.shields.io/badge/Difficulty-INTERMEDIATE-f1b604?style=for-the-badge&amp;logo=frontendmentor" style="max-width: 100%;"></a></p>
-<p dir="auto"> </p>
-<br/>
-<h2>:mag: Links</h2>
-<li><a href="https://maricastroc-galleria-slideshow.netlify.app/" target="_blank">Preview Site</a></li>
-<br/>
-<h2>:computer: My Process</h2>
-<h3>Built with:</h3>
-<li>HTML</li>
-<li>CSS</li>
-<li>React JS
+## 📌 What did I learn?
+
+In this project, I had the opportunity to practice working with ReactJS, using concepts like states, immutability, properties, components, context and keys. I was also able to practice many design features (masonry layout, slideshow presentation, lightbox view) and to use a Mobile First approach in order to favor responsive design.
+
+Additionally, I had the opportunity to work with React Router DOM, gaining experience in passing parameters between routes. This allowed me to create a gallery on the Home page where each painting could navigate to a separate route displaying its specific details
+
+[challenge-difficulty-intermediate](https://img.shields.io/badge/Difficulty-INTERMEDIATE-f1b604?style=for-the-badge&amp;logo=frontendmentor)
+
+## 🔍 Links
+[Preview Site]([https://maricastroc-github-blog.netlify.app/](https://maricastroc-galleria-slideshow.netlify.app/))
+
+## 💻 My Process
+### Built with:
+
+- [React](https://reactjs.org/)
+- [Javascript](https://www.javascript.com/)
+- [Vite](https://vitejs.dev/)
+- [Prettier](https://prettier.io/)
+- Mobile-first-workflow
+
+## ℹ️ How to run the application?
+
+> Clone the repository:
+
+```bash
+git clone https://github.com/maricastroc/github-blog
+```
+
+> Install the dependencies:
+
+```bash
+npm install
+```
+
+> Start the service:
+
+```bash
+npm run dev
+```
+
+> ⏩ Access [http://localhost:3000](http://localhost:3000) to view the web application.
