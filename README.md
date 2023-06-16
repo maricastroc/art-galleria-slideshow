@@ -1,7 +1,5 @@
 # Art-Galleria-Slideshow
-<p>Art gallery slideshow project build with ReactJS, with masonry layout, slideshow presentation, and lightbox view.</p>
-<br/>
-<img src='https://user-images.githubusercontent.com/121824373/233830056-75c4bcd2-e361-4d04-ab84-af876af843dd.jpg'>
+![art-galleria-slideshow](https://github.com/maricastroc/art-galleria-slideshow/assets/121824373/96ab3ad1-4c16-4158-862a-61f1e5fc9846)
 
 ## 📚 Project Description
 Welcome to the Art gallery slideshow project build with ReactJS, with masonry layout, slideshow presentation, and lightbox view! This is a solution to the challenge [Galleria Slideshow Site](https://www.frontendmentor.io/challenges/galleria-slideshow-site-tEA4pwsa6)
