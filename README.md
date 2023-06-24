@@ -17,7 +17,7 @@ Additionally, I had the opportunity to work with React Router DOM, gaining exper
 ![challenge-difficulty-intermediate](https://img.shields.io/badge/Difficulty-INTERMEDIATE-f1b604?style=for-the-badge&amp;logo=frontendmentor)
 
 ## 🔍 Links
-[Preview Site]([https://maricastroc-github-blog.netlify.app/](https://maricastroc-galleria-slideshow.netlify.app/))
+[Preview Site](https://maricastroc-galleria-slideshow.netlify.app/)
 
 ## 💻 My Process
 ### Built with:
